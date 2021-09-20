@@ -3,6 +3,7 @@ package main
 import (
   "fmt"
   "os"
+  "path"
 )
 
 type GitChange_t string
@@ -28,10 +29,10 @@ func (gsi GitStatusItem) Drawio(id, x, y int) string {
                 <mxCell id="%d" value="%s" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=%s;%s" parent="1" vertex="1">
                     <mxGeometry x="%d" y="%d" width="120" height="60" as="geometry"/>
                 </mxCell>
-`, id, gsi.file, gsi.change, staged, x, y)
+`, id, path.Base(gsi.file), gsi.change, staged, x, y)
 }
 
-func git_status_item_New(s string) GitStatusItem {
+func GitStatusItem_New(s string) GitStatusItem {
   file := s[3:]
   if s[0] == '?' {
     return GitStatusItem{false, Add, file}
