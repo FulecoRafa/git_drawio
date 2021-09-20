@@ -1,0 +1,28 @@
+<mxfile host="65bd71144e">
+    <diagram id="xYE1o5OOA-KSdR3Z0aG8" name="Page-1">
+        <mxGraphModel dx="1748" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Mod" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Del" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Add" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#99FF33;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Staged Mod" style="rounded=1;whiteSpace=wrap;html=1;gradientDirection=south;glass=0;shadow=0;sketch=0;strokeColor=#FFFF66;arcSize=50;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Staged Del" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;arcSize=50;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Staged Add" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#99FF33;arcSize=50;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
